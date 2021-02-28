@@ -12,18 +12,16 @@ public class _01_IntroToStack {
     	Stack<Double> stack = new Stack<Double>();
         // 2. Use a loop to push 100 random doubles between 0 and 100 to the Stack.
     	for(int i = 0; i > 100; i++){
-    		stack.push(5.0);
+    		stack.push(6.0);
     	}
         // 3. Ask the user to enter in two numbers between 0 and 100, inclusive. 
     	JOptionPane.showInputDialog("Choose a number between 0 and 100");
     	JOptionPane.showInputDialog("Choose another number between 0 and 100");
         // 4. Pop all the elements off of the Stack. Every time a double is popped that is
         //    between the two numbers entered by the user, print it to the screen.
-    	Double topOfStack = stack.pop();
-    	System.out.println(topOfStack);
     	System.out.println(stack.pop());
-
-        // EXAMPLE:
+    	
+    	// EXAMPLE:
         // NUM 1: 65
         // NUM 2: 75
 
@@ -36,5 +34,6 @@ public class _01_IntroToStack {
         // 71.54506465
         // 66.47984807
         // 74.12121224
+
     }
 }
