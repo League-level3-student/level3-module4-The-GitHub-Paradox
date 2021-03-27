@@ -10,17 +10,18 @@ public class Maze {
     public Maze(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;
-
+        	
         // 2. Initialize the cells array using the rows and cols variables
-
+        	new Maze(rows, cols);
         // 3. Iterate through each cell and initialize it
         //    using row and col as the cell location
-
+        	
+        	
     }
 
     // 4. This method iterates through the cells and draws them
     public void draw(Graphics g) {
-
+    	
     }
 
     // 5. This method returns the selected cell
