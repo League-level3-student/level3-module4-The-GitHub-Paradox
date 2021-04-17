@@ -27,14 +27,14 @@ public class MazeMaker {
         // 2. select a random cell in the maze to start 
         
         // 3. call the selectNextPath method with the randomly selected cell
-
+        
         return maze;
     }
 
     // 4. Complete the selectNextPathMethod
     private static void selectNextPath(Cell currentCell) {
         // A. SET currentCell as visited
-
+    	
         // B. check for unvisited neighbors using the cell
 
         // C. if has unvisited neighbors,
